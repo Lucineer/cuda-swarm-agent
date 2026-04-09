@@ -1,0 +1,8 @@
+[package]
+name = "cuda-swarm-agent"
+version = "0.1.0"
+edition = "2021"
+description = "Autonomous swarm agent — self-contained vessel with fleet coordination, deliberation, health"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-swarm-agent"
+keywords = ["ai", "fleet", "agent", "vessel"]
