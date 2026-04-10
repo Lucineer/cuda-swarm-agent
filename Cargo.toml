@@ -2,7 +2,7 @@
 name = "cuda-swarm-agent"
 version = "0.1.0"
 edition = "2021"
-description = "Standalone vessel — boot, broadcast, fleet health"
+description = "Standalone vessel with fleet health"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-swarm-agent"
 readme = "README.md"
@@ -10,4 +10,5 @@ keywords = ["ai", "fleet", "agent", "rust"]
 categories = ["science"]
 
 [dependencies]
+cuda-equipment = "0.1"
 serde = { version = "1", features = ["derive"] }
